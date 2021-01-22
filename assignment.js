@@ -1,3 +1,7 @@
+// Github repository link-
+// https://github.com/fahimjason/assignment-problems
+
+
 // Problem-1: kilometerToMeterConvert
 
 function kilometerToMeter(inputKilometer) {
@@ -45,12 +49,12 @@ function hotelCost(days) {
         return "Days can't be float or less than 1";
     }
     if (days <= 10) {
-        var hotelBill = days * 100;  // Hotel bill calculation for first 10 days
+        var hotelBill = days * 100;  // Hotel bill calculation for 1st to 10th days
     }
     else if (days <= 20) {
         var firstPartDaysBill = 10 * 100;
         var remainingDaysBill = (days - 10) * 80;
-        var hotelBill = firstPartDaysBill + remainingDaysBill;   // Hotel bill calculation for second 10 days
+        var hotelBill = firstPartDaysBill + remainingDaysBill;   // Hotel bill calculation for 11th to 20th days
     }
     else {
         // Calculation of after 20 days
@@ -68,8 +72,7 @@ console.log(stayingDays);
 
 
 
-//Mega Friend Kamal Jamal Salam Borkot Rofiul
-
+// Problem-4: megaFriend
 
 function megaFriend(frirndNames) {
     // Alert for null values
